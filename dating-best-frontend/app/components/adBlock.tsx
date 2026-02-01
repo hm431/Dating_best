@@ -2,6 +2,6 @@
 
 export default function AdBlock() {
     return (
-       <div>ADBLOCk</div>
+       <div className="adblock">ADBLOCk</div>
     );
 }

@@ -4,16 +4,6 @@ import "./globals.css";
 
 import Header from "./components/header"
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Dating best",
   description: "Choose where to go",
@@ -25,11 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-      
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="ru">
+      <body >
         <Header/>
         {children}
       </body>
