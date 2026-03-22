@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {Inter} from "next/font/google";
 import "./globals.css";
 
 import Header from "./components/header"
+import localFont from 'next/font/local'
 
-export const metadata: Metadata = {
-  title: "Dating best",
-  description: "Choose where to go",
-};
+// Настройка шрифтов 
+const inter = Inter({ 
+  subsets: ["latin", "cyrillic"], 
+  variable: "--font-inter",
+});
 
 export default function RootLayout({
   children,
@@ -15,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru">
-      <body >
+    <html lang="ru" >
+      <body className={inter.variable}>
         <Header/>
         {children}
       </body>

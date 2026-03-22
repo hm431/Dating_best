@@ -15,9 +15,36 @@ export default function Header() {
             />
             <Search/>
             <div className="flex max gap-4">
-                <Image src={FrendsLogo} width={37}/>
-                <Image src={UserIcon} width={37}/>
+                <Image alt="Лого друга" src={FrendsLogo} width={37}/>
+                <Image alt="Лого Пользователя" src={UserIcon} width={37}/>
             </div>
         </header>
     );
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
