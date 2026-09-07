@@ -1,5 +1,5 @@
 import Image from "next/image";
-import likeIcon from "./icons/Like.svg";
+import likeIcon from "@/public/icons/Like.svg";
 
 // export default function likeImage( ){
 //     console.log("liked")

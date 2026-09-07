@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   description: "Choose where to go",
 };
 
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
