@@ -1,10 +1,11 @@
-
+import CalendarNavigation from "./calendarNavigation";
+import TegsNavigation from "./tegsNavigation";
 
 export default function EventNavigation() {
     return (
         <>
-            <div>Calendar</div>
-            <div>Tegs</div>
+            <CalendarNavigation/>
+            <TegsNavigation/>
        </>
     );
 }
