@@ -1,6 +1,5 @@
-import Image from 'next/image';
 import Form from 'next/form'
-import SearchImg from '../../public/free-icon-search-4024513.png'
+import SearchImg from '@//public/free-icon-search-4024513.png'
 
 //TODO Скачать лого лупы из макета заменить на нужное 
 export default function Search() {

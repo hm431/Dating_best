@@ -1,5 +1,5 @@
-import EventNavigation from "./eventNavigation";
-import EventGreed from "./eventGreed";
+import EventNavigation from "../molecules/eventNavigation";
+import EventGreed from "../molecules/eventGreed";
 
 export default function Events() {
     return (
