@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import Search from '../molecules/serach';
+import Search from '../molecules/Serach';
 
-import LogoImg from '@/public/logo.svg'
+import LogoImg from '@/public/logos/logo.svg'
 import FrendsLogo from '@/public/users.svg'
 import UserIcon from '@/public/userIcon.svg'
 
 export default function Header() {
     return (
-        <header className="container flex justify-evenly my-8">
+        <header className="container flex justify-between my-8 w-full">
             <Image 
                 width={167}
                 src={LogoImg} 

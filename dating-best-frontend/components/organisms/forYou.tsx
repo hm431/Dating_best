@@ -1,5 +1,5 @@
-import ForYouCard from "../molecules/forYouCard";
-import ScrollButtons from "../atoms/scrollButtons"
+import ForYouCard from "../molecules/ForYouCard";
+import ScrollButtons from "../atoms/ScrollButtons"
 
 
 export default function ForYou() {

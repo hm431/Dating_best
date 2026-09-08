@@ -1,5 +1,5 @@
-import CalendarNavigation from "@/components/atoms/calendarNavigation"
-import TegsNavigation from "@/components/atoms/tegsNavigation";
+import CalendarNavigation from "@/components/atoms/CalendarNavigation"
+import TegsNavigation from "@/components/atoms/TegsNavigation";
 
 export default function EventNavigation() {
     return (

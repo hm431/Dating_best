@@ -1,4 +1,4 @@
-import EventCard from "../atoms/eventCard";
+import EventCard from "../atoms/EventCard";
 
 export default function EventGreed() {
     return (

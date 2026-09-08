@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import {Inter} from "next/font/google";
+import { palanquinDark } from './fonts';
 import "./globals.css";
 
-import Header from "@/components/organisms/header"
+import Header from "@/components/organisms/Header"
 
 export const metadata: Metadata = {
   title: "Dating best",
