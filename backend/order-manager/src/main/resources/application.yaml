@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: "order-manager"
+
+server:
+    port: 8081 

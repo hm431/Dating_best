@@ -19,3 +19,4 @@
 rootProject.name = "backend"
 
 include("user-manager")
+include("order-manager")
